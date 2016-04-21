@@ -1,0 +1,24 @@
+{
+  "name": "number.isinteger",
+  "version": "0.1.0",
+  "description": "Simple ES6 Number.isInteger() polyfill for older environments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryanhefner/Number.isInteger.git"
+  },
+  "keywords": [
+    "number",
+    "polyfill",
+    "isinteger"
+  ],
+  "author": "Ryan Hefner <hi@ryanhefner.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhefner/Number.isInteger/issues"
+  },
+  "homepage": "https://github.com/ryanhefner/Number.isInteger#readme"
+}
