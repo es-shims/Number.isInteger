@@ -2,7 +2,7 @@
  * Number.isInteger() - Polyfill
  *
  * @ref https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
- * @ref https://tc39.es/ecma262/#sec-number.isinteger
+ * @ref https://tc39.es/ecma262/#sec-number.isinteger (7.2.6)
  */
 
 'use strict';
