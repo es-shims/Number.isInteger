@@ -1,15 +1,26 @@
 # ES6 `Number.isInteger()` polyfill
 
 ## Installation
-* `npm install number.isinteger`
+
+```sh
+npm install number.isinteger
+```
+
 Or
-* `yarn add number.isinteger`
+
+```sh
+yarn add number.isinteger
+```
 
 ## Usage
 
-```javascript
+```js
 require('number.isinteger');
 
 Number.isInteger(42); //? true
 Number.isInteger(3.1415); //? false
 ```
+
+## License
+
+[MIT](LICENSE.md) © [Ryan Hefner](https://ryanhefner.com)
