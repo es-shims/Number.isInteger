@@ -5,6 +5,6 @@ var getPolyfill = require('./polyfill');
 
 module.exports = function shimMathIsInteger() {
 	var polyfill = getPolyfill();
-	// TODO
+	define(Number, { isInteger: polyfill });
 	return polyfill;
 };
