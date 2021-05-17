@@ -1,5 +1,3 @@
-/* eslint-disable max-lines-per-function */
-
 'use strict';
 
 module.exports = function (isInteger, t) {
