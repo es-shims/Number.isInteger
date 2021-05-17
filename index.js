@@ -1,18 +1,18 @@
-/**
- * Number.isInteger() - Polyfill
- *
- * @ref https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
- * @ref https://tc39.es/ecma262/#sec-number.isinteger (7.2.6)
- */
-
 'use strict';
 
-(function () {
-  Number.isInteger = Number.isInteger || function (value) {
-    return (
-      typeof value === 'number' && // 7.2.6§1
-      !(value !== value || value == Infinity || value == -Infinity) && // 7.2.6§2
-      Math.floor(Math.abs(value)) === Math.abs(value) // 7.2.6§3
-    )
-  };
-})();
+var define = require('define-properties');
+var callBind = require('call-bind');
+
+var implementation = require('./implementation');
+var getPolyfill = require('./polyfill');
+var shim = require('./shim');
+
+var polyfill = callBind(getPolyfill(), Math);
+
+define(polyfill, {
+	getPolyfill: getPolyfill,
+	implementation: implementation,
+	shim: shim
+});
+
+module.exports = polyfill;
