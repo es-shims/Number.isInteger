@@ -44,6 +44,7 @@
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"pretest": "npm run lint",
 		"lint": "eslint --ext=js,mjs .",
+		"postlint": "es-shim-api --bound",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"tests-esm": "nyc node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
@@ -76,6 +77,7 @@
 	},
 	"homepage": "https://github.com/es-shims/Number.isInteger#readme",
 	"devDependencies": {
+		"@es-shims/api": "^2.2.1",
 		"@ljharb/eslint-config": "^17.6.0",
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.2.1",
