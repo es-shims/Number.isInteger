@@ -1,6 +1,6 @@
 {
 	"name": "number.isinteger",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "An ES-spec-compliant Number.isInteger shim/polyfill/replacement that works as far down as ES3",
 	"main": "index.js",
 	"exports": {

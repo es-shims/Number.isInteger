@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Number.isInteger/compare/v1.0.0...v1.0.1) - 2021-10-03
+
+### Commits
+
+- [Refactor] remove ESM entry points [`4ea5c9c`](https://github.com/es-shims/Number.isInteger/commit/4ea5c9c41d53a975ffd3276ae7d8754dc647a276)
+- [Deps] update `es-abstract` [`c077922`](https://github.com/es-shims/Number.isInteger/commit/c0779226b066265db5d26b1f83254a7095296a87)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`714d692`](https://github.com/es-shims/Number.isInteger/commit/714d69263eb8f5733104cfc519f1022d251d7da0)
+- [actions] update workflows [`eac5f80`](https://github.com/es-shims/Number.isInteger/commit/eac5f80ce2b0b285d1813442bf828ddbad609394)
+- [Tests] add `@es-shims/api` [`88fb390`](https://github.com/es-shims/Number.isInteger/commit/88fb39075fe635aed79af17fbaf6b3b5edf3becf)
+
 ## [v1.0.0](https://github.com/es-shims/Number.isInteger/compare/v0.1.1...v1.0.0) - 2021-05-18
 
 ### Commits
