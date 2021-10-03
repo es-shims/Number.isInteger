@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = isIntegerModule;
-	t.equal(await import('number.isinteger/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('number.isinteger/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('number.isinteger/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('number.isinteger/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('number.isinteger/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('number.isinteger/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
