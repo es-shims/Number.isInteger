@@ -1,7 +1,7 @@
 'use strict';
 
-var IsInteger = require('es-abstract/2020/IsInteger');
+var IsIntegralNumber = require('es-abstract/2021/IsIntegralNumber');
 
 module.exports = function isInteger(value) {
-	return IsInteger(value);
+	return IsIntegralNumber(value);
 };
