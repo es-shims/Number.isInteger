@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/Number.isInteger/compare/v1.0.1...v1.0.2) - 2022-11-05
+
+### Commits
+
+- [actions] reuse common workflows [`8d05aaf`](https://github.com/es-shims/Number.isInteger/commit/8d05aaf6a2b9aeaca5fe550b598bb1fa49d87681)
+- [meta] use `npmignore` to autogenerate an npmignore file [`371e823`](https://github.com/es-shims/Number.isInteger/commit/371e8234cddb2416ebe34cec48e26509f6d47ae3)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`ab48538`](https://github.com/es-shims/Number.isInteger/commit/ab485382c4242c6a161dc75cae5a218eeb8d90e3)
+- [actions] update codecov uploader [`0b70cfc`](https://github.com/es-shims/Number.isInteger/commit/0b70cfcfd4710806541b2fd02de588217fdf996e)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `tape` [`4e7568e`](https://github.com/es-shims/Number.isInteger/commit/4e7568eb7c1428f7418063b1dbc0f3ade93da0bd)
+- [actions] update rebase action to use reusable workflow [`33a85cb`](https://github.com/es-shims/Number.isInteger/commit/33a85cbdddad1e93ef06b9d03f55f51a92c49e6a)
+- [Deps] update `define-properties`, `es-abstract` [`829c8e9`](https://github.com/es-shims/Number.isInteger/commit/829c8e9ab2f8251ca07231014462784792e1081d)
+
 ## [v1.0.1](https://github.com/es-shims/Number.isInteger/compare/v1.0.0...v1.0.1) - 2021-10-03
 
 ### Commits
