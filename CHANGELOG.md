@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Number.isInteger/compare/v1.0.2...v1.0.3) - 2023-09-06
+
+### Commits
+
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `tape` [`8146874`](https://github.com/es-shims/Number.isInteger/commit/81468740aef012203c5761e821ea01ca792eb823)
+- [Deps] update `define-properties`, `es-abstract` [`6bc1876`](https://github.com/es-shims/Number.isInteger/commit/6bc18767ba378a896834fee869296b08b2da2716)
+
 ## [v1.0.2](https://github.com/es-shims/Number.isInteger/compare/v1.0.1...v1.0.2) - 2022-11-05
 
 ### Commits
