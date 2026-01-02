@@ -1,7 +1,7 @@
 'use strict';
 
-var IsIntegralNumber = require('es-abstract/2023/IsIntegralNumber');
+var isIntegralNumber = require('math-intrinsics/isInteger');
 
 module.exports = function isInteger(value) {
-	return IsIntegralNumber(value);
+	return isIntegralNumber(value);
 };

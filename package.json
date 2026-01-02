@@ -72,7 +72,7 @@
 	"dependencies": {
 		"call-bind": "^1.0.8",
 		"define-properties": "^1.2.1",
-		"es-abstract": "^1.24.1"
+		"math-intrinsics": "^1.1.0"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",

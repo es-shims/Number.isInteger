@@ -7,7 +7,7 @@ var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
 var shim = require('./shim');
 
-var polyfill = callBind(getPolyfill(), Math);
+var polyfill = callBind(getPolyfill(), Number);
 
 define(polyfill, {
 	getPolyfill: getPolyfill,
