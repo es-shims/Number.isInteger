@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Number.isInteger/compare/v1.0.3...v1.0.4) - 2026-01-02
+
+### Commits
+
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `eslint`, `npmignore`, `tape` [`2c0d283`](https://github.com/es-shims/Number.isInteger/commit/2c0d2834e88357f1499d1f694e9c6bdad0aeec7b)
+- [Refactor] use math-intrinsics directly [`0e19a21`](https://github.com/es-shims/Number.isInteger/commit/0e19a21869f9ec88a6b9998ee4ea3da59f84c41f)
+- [Deps] update `call-bind`, `define-properties`, `es-abstract` [`bca71b8`](https://github.com/es-shims/Number.isInteger/commit/bca71b8cebe655c41c0a6dde0f9ac7db00470343)
+- [Dev Deps] use `npm audit` instead of `aud` [`d9bc4a8`](https://github.com/es-shims/Number.isInteger/commit/d9bc4a8573416d97216de96eb28a047927eb2136)
+- [meta] add engines.node [`69c417a`](https://github.com/es-shims/Number.isInteger/commit/69c417aecbbc549d83f947842d35b32ed491fd8e)
+- [readme] replace runkit CI badge with shields.io check-runs badge [`13ffb3c`](https://github.com/es-shims/Number.isInteger/commit/13ffb3ca9506c3848a6ac144f73f2266ca311409)
+- [Dev Deps] add missing peer dep [`d4cc860`](https://github.com/es-shims/Number.isInteger/commit/d4cc860dd37afd327ceebe0202c71cb4b480c8ac)
+
 ## [v1.0.3](https://github.com/es-shims/Number.isInteger/compare/v1.0.2...v1.0.3) - 2023-09-06
 
 ### Commits
